@@ -1,0 +1,23 @@
+.HomeScreen{text-align:left}.HomeScreen .explainer{background:#eee;border-radius:5px;box-shadow:0 0 50px #333;box-sizing:initial;margin:0 auto;overflow:hidden;padding-top:56.25%;position:relative;width:100%;z-index:1}.HomeScreen .youtube-container{height:100%}.HomeScreen
+.play{background:#282828;border-radius:50%/10%;color:#fff;font-size:1em;height:3em;left:50%;margin-top:20px;position:absolute;text-align:center;text-indent:.1em;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);transition:all .15s ease-out;width:4em}.HomeScreen.play:hover{background:red}
+.HomeScreen.play:before{background:inherit;border-radius:5%/50%;bottom:9%;content:"";left:-5%;position:absolute;right:-5%;top:9%}.HomeScreen
+.play:after{border-color:transparent transparent transparent hsla(0,0%,100%,.75);border-style:solid;border-width:1em 0 1em 1.732em;content:" ";font-size:.75em;height:0;margin:-1em 0 0 -.75em;position:absolute;top:50%;width:0}
+.login-section{background-color:#fff;border:1px solid #afafaf;border-radius:5px;display:inline-block;margin:10px auto;padding:20px}
+.LoginButton{align-items:center;align-self:center;border:1px solid transparent;border-radius:5px;color:#fff;cursor:pointer;display:flex;flex:1 1;font-weight:700;margin:7px auto;overflow:hidden;padding:0;transition:all .2s linear;width:280px}
+.LoginButton:hover:not([disabled]){-webkit-transform:scale(1.02);transform:scale(1.02)}.LoginButton:disabled{cursor:default;opacity:.7}.LoginButton
+img{background:#fff;box-sizing:initial;height:35px;padding:5px;width:35px}.LoginButton
+.login-text{flex:1 1;font-size:15px;overflow:hidden;padding:2px 13px;text-overflow:ellipsis}.Button,.LoginButton
+.login-text{text-align:center;white-space:nowrap}
+.Button{background:#3cc56e;border:0;border-radius:5px;box-shadow:0 1px 4px hsla(0,0%,59%,.05);color:#fff;cursor:pointer;flex-shrink:0;font-size:1em;padding:11px 14px;position:relative;transition:-webkit-transform .2s linear;transition:transform .2s linear;transition:transform .2s linear,-webkit-transform .2s linear}
+.Button.disabled:hover{-webkit-transform:none;transform:none}.Button.disabled{cursor:default}.Button:hover{-webkit-transform:scale(1.03);transform:scale(1.03)}.Button.rounded{border-radius:50px;padding:15px}.Button.orange{background:#cc5a2e;color:"white"}.Button.orange:hover{background:#e67448!important}
+.Button.grey{background:#eee;color:#000}
+.Button:focus{box-shadow:0 2px 6px hsla(0,0%,59%,.2);outline:none}.Button
+h3{margin:5px}.Button .thinking>span{left:calc(50% - .55em);position:absolute;top:calc(50% - .55em)}.Button
+.thinking{background:inherit;border-radius:5px;bottom:0;content:"";left:0;position:absolute;right:0;top:0}.Button.btn-red,.Button.btn-red:hover{background-color:red}.TrialForm
+fieldset{border-radius:1em;font-size:1em}.TrialForm
+input{margin-right:15px;padding-bottom:1.1em;padding-top:1.1em;vertical-align:middle;width:300px}.TrialForm
+button,.TrialForm
+input{box-sizing:initial;height:16px}.TrialForm .trial-container{display:flex;flex-wrap:wrap}.TrialForm .trial-field{margin-top:10px}.TrialForm p{color:#fff}.btn-grey,.btn-grey:hover{background-color:grey}.secondary-outline{background:#fff;border:1px solid #6c757d;color:#6c757d}
+.secondary-outline:hover{background:#6c757d;color:#fff}.TailwindButton{position:relative}.TailwindButton
+.thinking>span{left:calc(50% - .65em);position:absolute;top:calc(50% - .65em)}.TailwindButton .thinking{background:inherit;border-radius:5px;bottom:0;content:"";left:0;position:absolute;right:0;top:0}
+/*# sourceMappingURL=5975.56710a73.chunk.css.map*/

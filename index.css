@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .pre-tw-label {
+        @apply tw-mt-1 tw-mb-1 tw-text-xs tw-font-medium tw-inline-block tw-uppercase tw-align-middle;
+    }
+}
+
+/*
+    These are generated files from fontello for the custom icon font,
+    don't edit them manually. The fontello config is also in the
+    icon-font folder.
+*/
+@import './icon-font/css/animation.css';
+@import './icon-font/css/hostedscan-embedded.css';
+
+html {
+    background: white;
+    height: 100%;
+    word-break: normal;
+    line-height: normal;
+    overflow-y: scroll;
+}
+
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
+    line-height: 1;
+}
+
+p {
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+li {
+    font-weight: normal;
+}
+
+hero-heading {
+    font-size: 3.6em;
+    margin: .3em 0;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+hero-strap {
+    font-size: 1.6em;
+    margin: .3em 0;
+    text-align: center;
+    display: block;
+    color: rgb(104, 137, 196);
+}
+
+heading-one {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+hr {
+    border-style: solid;
+    color: #eee;
+    border-width: 0.5px;
+}
+
+#root {
+    flex: 1;
+    min-height: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+@media (min-width: 62em) {
+	.feature-image {
+        padding: 60px !important;
+    }
+}
+
+@media (min-width: 62em) {
+	.feature-image-container {
+        padding: 60px !important;
+    }
+}
+
+.Button.disabled {
+    opacity: .7;
+}
+
+.Button {
+    line-height: 1em;
+}
+
+.table-button {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.table-button:hover {
+    transform: scale(1.15);
+}
+
+.button-group .Button {
+    margin: 5px;
+  }
+
+.button-group .Button {
+    margin: 5px;
+}
+
+.tag {
+    display: inline-flex;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    margin: 3px 6px 3px 0px;
+    padding: 1px 3px;
+}
+
+.feature-image {
+    padding: 25px;
+    width:100%;
+}
+
+.feature-image-container {
+    padding: 25px;
+}
+
+.feature-image-container img {
+    width:100%;
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    color: #0ea5e9;
+}
+
+a:hover {
+    color: #0284c7;
+}
+
+.blue-link {
+    color: #278fcc;
+}
+
+.blue-link:hover {
+    color: #278fcc;
+}
+
+p.danger,
+a.danger {
+    color: #D0021B;
+}
+
+.muted {
+    opacity: .8;
+}
+
+li {
+    margin: 10px 0;
+    line-height: 1.5em;
+}
+
+.container {
+    margin: auto;
+}
+
+.container-limited {
+    max-width: 1200px;
+    /* box-sizing: content-box; */
+}
+
+.container-limited-lg {
+    max-width: 1600px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none !important;
+}
+
+
+h2, h3, h4, h5, h6, heading-one {
+    margin-bottom: 20px;
+    display: block;
+    line-height: 1.2;
+}
+.heading-one {
+    font-size: 3em;
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+.data-table-container {
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
+.modal-open {
+    padding: 0px !important;
+  }
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary:focus {
+    color: black;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary.focus {
+    color: black;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+.trial-heading {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+@media (max-width: 48em)                       { .hidden-xs { display: none !important; } }
+@media (min-width: 48em) and (max-width: 62em) { .hidden-sm { display: none !important; } }
+@media (min-width: 62em) and (max-width: 75em) { .hidden-md { display: none !important; } }
+@media (min-width: 75em)                       { .hidden-lg { display: none !important; } }
+
+@import './components/inputs.css'

@@ -1,0 +1,20 @@
+.TailwindButton {
+  position: relative;
+}
+
+.TailwindButton .thinking>span {
+  position: absolute;
+  left: calc(50% - 0.65em);
+  top: calc(50% - 0.65em);
+}
+
+.TailwindButton .thinking {
+  content: '';
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 0;
+  bottom: 0;
+  background: inherit;
+  border-radius: 5px;
+}
