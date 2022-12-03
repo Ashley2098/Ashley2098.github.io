@@ -1,138 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-  <style type="text/css">
-    ol{margin:0;padding:0}table td,table th{padding:0}
-    .c21{color:#b9b900;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c31{color:#999900;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c7{color:#858500;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c27{color:#959500;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c34{color:#b4b400;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c41{color:#a1a100;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c43{color:#ffe300;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c32{color:#be9900;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c2{color:#94b000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c13{color:#ce5d00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c45{color:#828200;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c51{color:#787800;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c20{color:#878a00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c23{color:#d36f00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c12{color:#9d9a00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c54{color:#a7a700;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c4{color:#9d9d00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c50{color:#757500;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c29{color:#c7dc00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c40{color:#d6ad00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c10{color:#d36400;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c6{color:#a7a700;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c48{color:#cf6400;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c52{color:#858a00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c39{color:#ce5b00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c9{color:#a3a300;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Courier New";font-style:normal}
-    .c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}
-    .c30{color:#a3a300;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c55{color:#cbcb00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c28{color:#a4a400;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c49{color:#d56100;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c35{color:#929200;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c53{color:#b6cc00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c24{color:#969600;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c5{color:#a2a200;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c38{color:#999900;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c26{color:#9a9a00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Courier New";font-style:normal}
-    .c42{color:#cc6000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c44{color:#9a9a00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c22{color:#767400;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c16{color:#e9ff00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c0{color:#979700;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c14{color:#d07300;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c46{color:#747400;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c47{color:#aaaa00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c19{color:#959500;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Courier New";font-style:normal}
-    .c17{color:#848400;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c33{color:#777700;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c25{color:#5c5c00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c15{color:#b3b200;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c37{color:#9e9e00;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Times New Roman";font-style:normal}
-    .c18{color:#d66500;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c36{color:#ffff00;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c56{color:#b5b500;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Arial";font-style:normal}
-    .c11{padding-top:0pt;padding-bottom:0pt;line-height:1.15;text-align:left}
-    .c1{padding-top:0pt;padding-bottom:5pt;line-height:1.15;text-align:left}
-    .c8{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}
-    .title{padding-top:24pt;color:#000000;font-weight:700;font-size:36pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}
-    .subtitle{padding-top:18pt;color:#666666;font-size:24pt;padding-bottom:4pt;font-family:"Georgia";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}
-    li{color:#000000;font-size:11pt;font-family:"Arial"}
-    p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}
-    h1{padding-top:24pt;color:#000000;font-weight:700;font-size:24pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}
-    h2{padding-top:18pt;color:#000000;font-weight:700;font-size:18pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}
-    h3{padding-top:14pt;color:#000000;font-weight:700;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}
-    h4{padding-top:12pt;color:#000000;font-weight:700;font-size:12pt;padding-bottom:2pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}
-    h5{padding-top:11pt;color:#000000;font-weight:700;font-size:11pt;padding-bottom:2pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}
-    h6{padding-top:10pt;color:#000000;font-weight:700;font-size:10pt;padding-bottom:2pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}
-</style>
-</head>
-<body class="c8 doc-content">
-  <p class="c11">
-    <span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 621.33px; height: 292.09px;">
-    <img alt="" src="images/VSPLogo.jpg" style= width: 621.33px; height: 292.09px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); title=""></p></span>
-    <hr>
-
-  <p class="c1"><span class="c2">VSP Technology</span></p>
-    <p class="c1"><span class="c52">Scan Types Docs Pricing Sign In</span></p>
-    <p class="c1"><span class="c20">Create Account</span></p>
-    <p class="c1"><span class="c36">Run online vulnerability scanners, for less</span></p>
-    <p class="c1"><span class="c16">Scan networks, servers, and websites for security risks. Manage your risks via dashboards, reporting, and alerts. Try for free</span></p>
-    <p class="c1"><span class="c53">HostedScan Security</span></p>
-    <p class="c1"><span class="c17">TITLE</span></p>
-    <p class="c1"><span class="c15">Dashboard Targets Scans Risks</span></p>
-    <p class="c1"><span class="c40">Add Targets</span></p>
-    <p class="c1"><span class="c32">New Scan</span></p>
-    <p class="c1"><span class="c25">Most Recent Risks</span></p>
-    <p class="c1"><span class="c46">SCAN TYPE</span></p>
-    <p class="c1"><span class="c33">TARGET</span></p>
-    <p class="c1"><span class="c7">THREAT LEVEL</span></p>
-    <p class="c1"><span class="c45">STATUS</span></p>
-    <p class="c1"><span class="c51">DETECTED</span></p>
-    <p class="c1"><span class="c34">&gt;</span></p>
-    <p class="c1"><span class="c5">Grafana &lt;6.7.2 XSS Vulnerability</span></p>
-    <p class="c1"><span class="c41">OPENVAS</span></p>
-    <p class="c1"><span class="c50">134</span></p>
-    <p class="c1"><span class="c22">HIGH</span></p>
-    <p class="c1"><span class="c42">OPEN</span></p>
-    <p class="c1"><span class="c6">21 minutes ago</span></p>
-    <p class="c1"><span class="c24">Grafana &lt;6.7.3 Mutiple</span></p>
-    <p class="c1"><span class="c55">&gt;</span></p>
-    <p class="c1"><span class="c26">OPENVAS</span></p>
-    <p class="c1"><span class="c38">134</span></p>
-    <p class="c1"><span class="c48">MEDIUM</span></p>
-    <p class="c1"><span class="c39">OPEN</span></p>
-    <p class="c1"><span class="c27">21 minutes ago</span></p>
-    <p class="c1"><span class="c30">Vulnerabilities</span></p>
-    <p class="c1"><span class="c28">Grafana 3.0.16.74, 7.0&lt;7.0.2</span></p>
-    <p class="c1"><span class="c21">&gt;</span></p>
-    <p class="c1"><span class="c9">OPENVAS</span></p>
-    <p class="c1"><span class="c54">134.122.19.46</span></p>
-    <p class="c1"><span class="c10">MEDIUM</span></p>
-    <p class="c1"><span class="c23">OPEN</span></p>
-    <p class="c1"><span class="c31">21 minutes ago</span></p>
-    <p class="c1"><span class="c44">SSRF Vulnerability</span></p>
-    <p class="c1"><span class="c56">&gt;</span></p>
-    <p class="c1"><span class="c47">SSL/TLS: Certificate Expired</span></p>
-    <p class="c1"><span class="c19">OPENVAS</span></p>
-    <p class="c1"><span class="c28">134.122.19.46</span></p>
-    <p class="c1"><span class="c49">MEDIUM</span></p>
-    <p class="c1"><span class="c13">OPEN</span></p>
-    <p class="c1"><span class="c31">21 minutes ago</span></p>
-    <p class="c1"><span class="c12">Enter a URL, IP address, or hostname...</span></p>
-    <p class="c1"><span class="c43">Scan &gt;&gt;</span></p>
-    <p class="c1"><span class="c35">SSL/TLS: Missing secure Cookie Atribute</span></p>
-    <p class="c1"><span class="c37">OPENVAS</span></p>
-    <p class="c1"><span class="c4">134.122.19.46</span></p>
-    <p class="c1"><span class="c14">MEDIUM</span></p>
-    <p class="c1"><span class="c18">OPEN</span></p>
-    <p class="c1"><span class="c0">21 minutes ago</span></p>
-    <p class="c1"><span class="c29">See all 19 risks</span></p>
-  </body>
-    </html>
+  <meta content="text/html; charset=UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap"
+  rel="stylesheet">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Vulnerability scans, automated for any business</title>
+  <script type="text/javascript" async="" src="https://cdn.heapanalytics.com/js/heap-4096076679.js"></script>
+  <meta name="description" content="Online automated vulnerability scans for continuous monitoring of websites, servers, and applications. Test our free forever version." data-react-helmet="true">
+<body data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-instaleld>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div>id="root">
+      <div class="App">
+        <div style="background-color: rgb(255, 255, 255);">
+          <header class="MarketingNavigation container-limited container-fluid">
+            <a aria-current="page" class="logo center-xs start-sm active" href="">
+              <img alt="VSP Logo.jpg" width="40px" height="40px" src="ashley2098.github.io/VSP Logo.jpg">
+              "VSP Technology"
+            </a>
+            <div style="flex:1 1 0%;"></div>
+            <div class="link-container">
+              <a class="nav-link" href="/scan-types">Scan Types</a>
+              <a class="nav-link" href="/login">Log in</a>
+              <a class="nav-btn" href="/signUp.html">
+                <button type="button" class="btn btn-outline-secondary create-account-btn">Create Account</button>
+              </a>
+            </div>
+          </header>
+        </div>
+        <div class="HomeScreen">
+          <h1 class="sr-only">
+            Online automated vulnerability scans for continuous monitoring of websites.
+          </h1>
+          <section>
+            <div class="tw-bg-white">
+              <div class="tw-mx-auto tx-max-w-screen-2x1 tw-py-16 tw-px-4 sm:-6 lg:tw-px-8">
+                <div class="tw-overflow-hidden tw-rounded-lg tw-bg-sky-600 tw-shadow-xl lg:tw-grid lg:tw-grid-cols-2 lg:tw-gap-4">
+                  <div class="tw-px-6 tw-pt-10 tw-pb-12 sm:tw-px-16 sm:tw-pt-16 lg:tw-py-16 lg:tw-pr-0 xl:tw-py-20">
+                    <div class="lg:tw-self-center">
+                      <h2 class="tw-text-3xl tw-font-extrabold tw-text-white sm:tw-text-4xl">
+                      <span class="tw-block tw-text-white">Run online vulnerability scanners, for less</span>
+                    </h2>
+                    <p class="tw-mt-4 tw-mb-2 tw-text-lg tw-font-normal tw-leading-6 tw-text-sky-100">Scan networks, servers, and websites for security risks.</p>
+                  <p class="tw-mt-0 tw-mb-4 tw-text-lg tw-font-normal tw-leading-6 tw-text-sky-100">Manage your risks via dashboards, reporting, and alerts.</p>
+                  <h2 class="tw-mt-8 tw-mb-0 tw-font-bold tw-text-white">Try for free</h2>
+                  <div class="TrialForm">
+                    <div style="display: flex; justify-content: left;">
+                      <div>
+                        <form>
+                          <fieldset>
+                            <div class="trial-container">
+                              <div class="trial-field">
+                                <input name="target" type="text" placeholder="Enter a URL, IP address, or hostname..." required="" value=""></div>
+                                <div class="trial-field">
+                                  <button class="TailwindButton tw-inline-flex tw-items-center tw-border tw-border-transparent tw-font-medium tw-rounded-md tw-shadow-sm tw-text-white tw-bg-green-500 disabled:tw-bg-green-300 hover:tw-bg-green-600 disabled:hover:tw-bg-green-300 tw-px-6 tw-py-4 tw-text-med">Scan&nbsp;
+                                  <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="font-size: 22px;">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </form>
+                      <div style="height: 10px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tw-relative tw-flex tw-items-center tw-px-8 tw-py-8">
+              <div class="explainer">
+                <div style="position: absolute; inset: 0px; height: auto; width: auto;"><div>
+                  </div>
+                  </div>
+                </div>
+              </div>
