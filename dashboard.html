@@ -76,54 +76,409 @@
                       </div>
                   <div class="container-fluid" style="max-width: 1400px;"></div>
                   </header>
-                  <div class="sc-hHTYSt kLvOiH">
-                    <div class="sc-kgTSHT dgNTwd">
-                      <div class="sc-bcXHqe begmQT rdt_Table" role="table">
-                        <div class="sc-bBABsx CAmot">
-                          <div style="padding: 24px;">There are no records to display</div>
+                  <div class="sc-bcXHqe begmQT rdt_Table" role="table">
+                    <div class="sc-gswNZR kQcYu rdt_TableHead" role="rowgroup">
+                      <div class="sc-dkrFOg deLsct rdt_TableHeadRow" role="row">
+                        <div class="sc-hLBbgP sc-fLcnxK ixtuXV hKfHeF"></div>
+                        <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC kcxRMj cECpmY rdt_TableCol">
+                          <div id="column-function(t){return t.risk_definition.title}" role="columnheader" tabindex="0" class="sc-csuSiG bBmgpw rdt_TableCol_Sortable"><div>TITLE</div>
+                          <span class="sc-kDvujY jonxvd">▲</span>
+                        </div>
+                      </div>
+                      <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC etlbZY cECpmY rdt_TableCol">
+                        <div id="column-function(t){return d.SK[t.risk_definition.scan_type]}" role="columnheader" tabindex="0" class="sc-csuSiG bBmgpw rdt_TableCol_Sortable">
+                          <div>SCAN TYPE</div>
+                          <span class="sc-kDvujY jonxvd">▲</span>
+                        </div>
+                      </div>
+                      <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC fWQxKx cECpmY rdt_TableCol">
+                        <div id="column-function(t){return(0,d.Eg)(t.target)}" role="columnheader" tabindex="0" class="sc-csuSiG bBmgpw rdt_TableCol_Sortable">
+                          <div>TARGET</div>
+                          <span class="sc-kDvujY jonxvd">▲</span>
+                        </div>
+                      </div>
+                      <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC dzhQMK cECpmY rdt_TableCol">
+                        <div id="column-function(t){return function(t){var e=t.risk_definition.threat_level,n=&quot;grey&quot;;switch(e){case&quot;LOW&quot;:n=&quot;steelblue&quot;;break;case&quot;MEDIUM&quot;:n=&quot;orange&quot;;break;case&quot;HIGH&quot;:n=&quot;red&quot;;break;default:n=&quot;gray&quot;}return(0,I.jsxs)(&quot;div&quot;,{className:&quot;tw-flex&quot;,children:[(0,I.jsx)(&quot;div&quot;,{style:{backgroundColor:n,color:&quot;white&quot;,borderRadius:&quot;5px&quot;,width:&quot;18px&quot;,height:&quot;18px&quot;,marginRight:&quot;10px&quot;,marginTop:&quot;0px&quot;}}),d.VF[e]]})}(t)}" role="columnheader" tabindex="0" class="sc-csuSiG bBmgpw rdt_TableCol_Sortable">
+                          <div>THREAT LEVEL</div>
+                          <span class="sc-kDvujY jonxvd">▲</span>
+                        </div>
+                      </div>
+                      <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC igKnQK cECpmY rdt_TableCol">
+                        <div id="column-function(t){return function(t){return t.openvas_qod?&quot;&quot;.concat(t.openvas_qod,&quot;%&quot;):&quot;&quot;}(t)}" role="columnheader" tabindex="0" class="sc-csuSiG hfbDlp rdt_TableCol_Sortable">
+                          <div>
+                            <div>OPENVAS QOD <a href="/openvas-qod" target="_blank">
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="font-size: 22px;">
+                                <path fill="none" stroke-miterlimit="10" stroke-width="32" d="M256 80a176 176 0 10176 176A176 176 0 00256 80z"></path>
+                                <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="28" d="M200 202.29s.84-17.5 19.57-32.57C230.68 160.77 244 158.18 256 158c10.93-.14 20.69 1.67 26.53 4.45 10 4.76 29.47 16.38 29.47 41.09 0 26-17 37.81-36.37 50.8S251 281.43 251 296"></path>
+                                <circle cx="250" cy="348" r="20"></circle>
+                              </svg>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC fUdMW cECpmY rdt_TableCol">
+                      <div id="column-function(t){return function(t){var e=&quot;grey&quot;;&quot;CLOSED&quot;!==t.status&amp;&amp;(e=&quot;ACCEPTED&quot;===t.status?&quot;#3cc56e&quot;:&quot;orange&quot;);return(0,I.jsxs)(&quot;div&quot;,{className:&quot;tw-flex&quot;,children:[(0,I.jsx)(&quot;div&quot;,{style:{backgroundColor:e,color:&quot;white&quot;,borderRadius:&quot;5px&quot;,width:&quot;18px&quot;,height:&quot;18px&quot;,marginRight:&quot;10px&quot;,marginTop:&quot;0px&quot;}}),d.VF[t.status]]})}(t)}" role="columnheader" tabindex="0" class="sc-csuSiG bBmgpw rdt_TableCol_Sortable">
+                        <div>STATUS</div>
+                        <span class="sc-kDvujY jonxvd">▲</span>
+                      </div>
+                    </div>
+                    <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC kaUujl cECpmY rdt_TableCol">
+                      <div id="column-detected" role="columnheader" tabindex="0" class="sc-csuSiG bqEkvt rdt_TableCol_Sortable">
+                        <div>LAST DETECTED</div>
+                        <span class="sc-kDvujY hBoifs">▲</span>
+                      </div>
+                    </div>
+                    <div class="sc-hLBbgP sc-eDvSVe sc-ipEyDJ kHVmqC fUdMW cECpmY rdt_TableCol"></div>
+                  </div>
+                </div>
+                <div offset="250px" class="sc-dIfARi kNNa-dS rdt_TableBody" role="rowgroup">
+                  <div id="row-0" role="row" class="sc-jrcTuL fIexLH rdt_TableRow">
+                    <div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                      <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                        <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                          <path d="M0-.25h24v24H0z" fill="none"></path>
+                        </svg>
+                        </button>
+                      </div>
+                      <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                        <div data-tag="allowRowEvents">Missing Anti-clickjacking Header</div></div><div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                          <div data-tag="allowRowEvents">OWASP ZAP Active</div>
+                        </div>
+                        <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                          <div data-tag="allowRowEvents">
+                            <div data-tag="allowRowEvents">gumblar.cn</div>
+                          </div>
+                        </div>
+                            <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                              <div data-tag="allowRowEvents">
+                                <div class="tw-flex">
+                                  <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                  </div>Medium</div>
+                                </div>
+                              </div>
+                              <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                <div data-tag="allowRowEvents"></div>
+                              </div>
+                              <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                <div data-tag="allowRowEvents">
+                                  <div class="tw-flex">
+                                    <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                    </div>Open</div>
+                                  </div>
+                                </div>
+                                <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">16 minutes ago</div>
+                                <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell">
+                                  <button class="Button  ">Accept Risk</button>
+                                </div>
+                              </div>
+                              <div id="row-1" role="row" class="sc-jrcTuL fIexLH rdt_TableRow">
+                                <div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                                  <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                                    <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                      <path d="M0-.25h24v24H0z" fill="none"></path>
+                                    </svg>
+                                  </button>
+                                </div>
+                                <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                                  <div data-tag="allowRowEvents">X-Content-Type-Options Header Missing</div>
+                                </div>
+                                <div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                                  <div data-tag="allowRowEvents">OWASP ZAP Active</div>
+                                </div>
+                                <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                                  <div data-tag="allowRowEvents">
+                                    <div data-tag="allowRowEvents">gumblar.cn</div>
+                                  </div>
+                                </div>
+                                <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                                  <div data-tag="allowRowEvents">
+                                    <div class="tw-flex">
+                                      <div style="background-color: steelblue; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                      </div>Low</div>
+                                    </div>
+                                  </div>
+                                  <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                    <div data-tag="allowRowEvents"></div>
+                                  </div>
+                                  <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                    <div data-tag="allowRowEvents">
+                                      <div class="tw-flex"><div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                      </div>Open</div>
+                                    </div>
+                                  </div>
+                                  <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">16 minutes ago</div>
+                                  <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell">
+                                    <button class="Button  ">Accept Risk</button>
+                                  </div>
+                                </div>
+                                <div id="row-2" role="row" class="sc-jrcTuL fIexLH rdt_TableRow">
+                                  <div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                                    <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                                      <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                        <path d="M0-.25h24v24H0z" fill="none"></path>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                  <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                                    <div data-tag="allowRowEvents">Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s)</div>
+                                  </div>
+                                  <div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                                    <div data-tag="allowRowEvents">OWASP ZAP Active</div>
+                                  </div>
+                                  <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                                    <div data-tag="allowRowEvents">
+                                      <div data-tag="allowRowEvents">gumblar.cn</div>
+                                    </div>
+                                  </div>
+                                  <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                                    <div data-tag="allowRowEvents">
+                                      <div class="tw-flex">
+                                        <div style="background-color: steelblue; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                        </div>Low</div>
+                                      </div>
+                                    </div>
+                                    <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                      <div data-tag="allowRowEvents"></div>
+                                    </div>
+                                    <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                      <div data-tag="allowRowEvents">
+                                        <div class="tw-flex">
+                                          <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                          </div>Open</div>
+                                        </div>
+                                      </div>
+                                      <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">16 minutes ago</div>
+                                      <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell">
+                                        <button class="Button  ">Accept Risk</button>
+                                      </div>
+                                    </div>
+                                    <div id="row-3" role="row" class="sc-jrcTuL fIexLH rdt_TableRow">
+                                      <div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                                        <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                                          <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                            <path d="M0-.25h24v24H0z" fill="none"></path>
+                                          </svg>
+                                        </button>
+                                      </div>
+                                      <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                                        <div data-tag="allowRowEvents">Cross-Domain JavaScript Source File Inclusion</div>
+                                      </div>
+                                      <div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                                        <div data-tag="allowRowEvents">OWASP ZAP Active</div>
+                                      </div>
+                                      <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                                        <div data-tag="allowRowEvents">
+                                          <div data-tag="allowRowEvents">gumblar.cn</div>
+                                        </div>
+                                      </div>
+                                      <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                                        <div data-tag="allowRowEvents">
+                                          <div class="tw-flex">
+                                            <div style="background-color: steelblue; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                            </div>Low</div>
+                                          </div>
+                                        </div>
+                                        <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents"></div>
+                                        </div>
+                                        <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents">
+                                            <div class="tw-flex">
+                                              <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                              </div>Open</div>
+                                            </div>
+                                          </div>
+                                          <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">16 minutes ago</div>
+                                          <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell">
+                                            <button class="Button  ">Accept Risk</button>
+                                          </div>
+                                        </div>
+                                        <div id="row-4" role="row" class="sc-jrcTuL fIexLH rdt_TableRow">
+                                          <div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                                            <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                                              <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                                <path d="M0-.25h24v24H0z" fill="none"></path>
+                                              </svg>
+                                            </button>
+                                          </div>
+                                          <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                                            <div data-tag="allowRowEvents">Missing Anti-clickjacking Header</div>
+                                          </div>
+                                          <div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                                            <div data-tag="allowRowEvents">OWASP ZAP</div>
+                                          </div>
+                                          <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                                            <div data-tag="allowRowEvents">
+                                              <div data-tag="allowRowEvents">gumblar.cn</div>
+                                            </div>
+                                          </div>
+                                          <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                                            <div data-tag="allowRowEvents">
+                                              <div class="tw-flex">
+                                                <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                                </div>Medium</div>
+                                              </div>
+                                            </div>
+                                            <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                              <div data-tag="allowRowEvents"></div>
+                                            </div>
+                                            <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                              <div data-tag="allowRowEvents">
+                                                <div class="tw-flex">
+                                                  <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                                  </div>Open</div>
+                                                </div>
+                                              </div>
+                                              <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">19 minutes ago</div>
+                                              <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell">
+                                                <button class="Button  ">Accept Risk</button>
+                                              </div>
+                                            </div>
+                                            <div id="row-5" role="row" class="sc-jrcTuL fIexLH rdt_TableRow"><div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                                              <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                                                <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                                  <path d="M0-.25h24v24H0z" fill="none"></path>
+                                                </svg>
+                                              </button>
+                                            </div>
+                                            <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                                              <div data-tag="allowRowEvents">Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s)</div>
+                                            </div>
+                                            <div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                                              <div data-tag="allowRowEvents">OWASP ZAP</div>
+                                            </div>
+                                            <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                                              <div data-tag="allowRowEvents">
+                                                <div data-tag="allowRowEvents">gumblar.cn</div>
+                                              </div>
+                                            </div>
+                                            <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                                              <div data-tag="allowRowEvents">
+                                                <div class="tw-flex">
+                                                <div style="background-color: steelblue; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                            </div>Low</div>
+                                          </div>
+                                        </div>
+                                        <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents"></div>
+                                        </div>
+                                        <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents">
+                                            <div class="tw-flex">
+                                              <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                              </div>Open</div>
+                                            </div>
+                                          </div>
+                                          <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">19 minutes ago</div>
+                                          <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell">
+                                            <button class="Button  ">Accept Risk</button>
+                                          </div>
+                                        </div>
+                                        <div id="row-6" role="row" class="sc-jrcTuL fIexLH rdt_TableRow">
+                                          <div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                                            <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                                              <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                                <path d="M0-.25h24v24H0z" fill="none"></path>
+                                              </svg>
+                                            </button>
+                                          </div>
+                                          <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                                            <div data-tag="allowRowEvents">Cross-Domain JavaScript Source File Inclusion</div>
+                                          </div>
+                                          <div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                                            <div data-tag="allowRowEvents">OWASP ZAP</div>
+                                          </div>
+                                          <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                                            <div data-tag="allowRowEvents">
+                                              <div data-tag="allowRowEvents">
+                                          gumblar.cn
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                                        <div data-tag="allowRowEvents">
+                                          <div class="tw-flex">
+                                            <div style="background-color: steelblue; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                            </div>Low</div>
+                                          </div>
+                                        </div>
+                                        <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents">
+                                          </div>
+                                        </div>
+                                        <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents">
+                                            <div class="tw-flex">
+                                              <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                              </div>Open</div>
+                                            </div>
+                                          </div>
+                                          <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">19 minutes ago</div>
+                                          <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell"><button class="Button  ">Accept Risk</button>
+                                          </div>
+                                        </div>
+                                        <div id="row-7" role="row" class="sc-jrcTuL fIexLH rdt_TableRow">
+                                          <div class="sc-hLBbgP sc-ftTHYK eNkUQW hFfxqh">
+                                            <button data-testid="expander-button-undefined" aria-label="Expand Row" role="button" type="button" class="sc-iBYQkv ixMPZV">
+                                              <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+                                                <path d="M0-.25h24v24H0z" fill="none"></path>
+                                              </svg>
+                                            </button>
+                                          </div>
+                                          <div id="cell-z38l8svl-e4-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kcxRMj bxZWHS rdt_TableCell">
+                                            <div data-tag="allowRowEvents">X-Content-Type-Options Header Missing</div>
+                                          </div>
+                                          <div id="cell-v1IDsdT_9Wx-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV etlbZY lbRsZk rdt_TableCell">
+                                            <div data-tag="allowRowEvents">OWASP ZAP</div>
+                                          </div>
+                                          <div id="cell-rNHfmnZQA1P-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fWQxKx bxZWHS rdt_TableCell">
+                                            <div data-tag="allowRowEvents"><div data-tag="allowRowEvents">
+                                          gumblar.cn
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div id="cell-dClmEhr-pgl-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV dzhQMK lbRsZk rdt_TableCell">
+                                        <div data-tag="allowRowEvents">
+                                          <div class="tw-flex">
+                                            <div style="background-color: steelblue; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                            </div>Low</div>
+                                          </div>
+                                        </div>
+                                        <div id="cell-xHiKjyrOvLr-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV igKnQK lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents"></div>
+                                        </div>
+                                        <div id="cell-9Z2sU6SAlEe-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW lbRsZk rdt_TableCell">
+                                          <div data-tag="allowRowEvents">
+                                            <div class="tw-flex">
+                                              <div style="background-color: orange; color: white; border-radius: 5px; width: 18px; height: 18px; margin-right: 10px; margin-top: 0px;">
+                                              </div>Open</div>
+                                            </div>
+                                          </div>
+                                          <div id="cell-qHY2_A4hBkb-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV kaUujl gvYYnf rdt_TableCell">19 minutes ago</div>
+                                          <div id="cell-O9gvCj5v4Kw-undefined" role="gridcell" data-tag="allowRowEvents" class="sc-hLBbgP sc-eDvSVe sc-jSUZER ixtuXV fUdMW gvYYnf rdt_TableCell">
+                                            <button class="Button  ">Accept Risk</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="result-display" class="titled-table">
-          <h1>Detected Risks</h1>
-          <table>
-              <tr class="tr-head">
-                  <th>Name</th>
-                  <th>Threat Level</th>
-                  <th>Status</th>
-              </tr>
-              <tr>
-                  <td>Trojan</td>
-                  <td class="priority-low">Low</td>
-                  <td class="priority-high">Active</td>
-              </tr>
-              <tr>
-                  <td>Virus</td>
-                  <td class="priority-mid">Medium</td>
-                  <td class="priority-mid">Quarantined</td>
-              </tr>
-              <tr>
-                  <td>Worm</td>
-                  <td class="priority-high">High</td>
-                  <td class="priority-good">Blocked</td>
-              </tr>
-              <tr>
-                  <td>Adware</td>
-                  <td class="priority-low">Low</td>
-                  <td class="priority-mid">Quarantined</td>
-              </tr>
-              <tr>
-                  <td>Suspected Trojan</td>
-                  <td class="priority-low">Low</td>
-                  <td class="priority-misc">Allowed</td>
-              </tr>
-          </table>
-      </div>
       </body>
 </html>
