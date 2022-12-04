@@ -1,0 +1,100 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif; /* Sets the font for the whole page. Use W3 to change if desired. */
+}
+
+h1 
+{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#top-bar
+{
+    padding: 25px;
+}
+
+#interface-section
+{
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+}
+
+button.reset-button
+{
+    width: 400px;
+    height: 100%;
+    background-color: transparent;
+    cursor:pointer;
+    border: 5px solid rgb(0, 105, 14);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 105, 14);
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    font-size: 16px; /* Sets the font size for the whole table. */
+}
+
+th
+{
+    color: black;
+}
+
+th, td
+{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+td.priority-low
+{
+    color: gold;
+}
+
+td.priority-mid
+{
+    color: darkorange;
+}
+
+td.priority-high
+{
+    color: crimson;
+}
+
+td.priority-good
+{
+    color: darkgreen;
+}
+
+td.priority-misc
+{
+    color: darkblue;
+}
+
+.titled-table 
+{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 5px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    justify-self: center;
+}
+
+tr.tr-head
+{
+    border-bottom: 2px solid rgb(80, 80, 80);
+}

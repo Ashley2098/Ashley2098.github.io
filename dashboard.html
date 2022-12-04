@@ -1,8 +1,54 @@
-<p><image>
-    <img src="VSPLogo.jpg" alt="" /></span>
-    <p><strong>Detected Risks</strong></p>
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; Name&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Threat Level&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Status</p>
-    <hr />
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; Malware&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #ff0000;">HIGH&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color: #ff0000;">Active</span></p>
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; Trojan Virus&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: #ff0000;">HIGH&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Active</span></p>
-    <p>&nbsp; &nbsp; &nbsp; &nbsp; Data Leak&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="color: #ff6600;">Medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Active</span></p>
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="dashboardStyle.css">
+<script>
+    function redirectHome() {
+        location.href = 'https://ashley2098.github.io/Homepage'; //Just put the URL you are redirecting to or the name of/path to the file.
+    }
+</script>
+<body>
+    <div id="top-bar">
+        <img src="VSPLogo.png" alt="VSP Logo" width="96" height="96">
+    </div>
+    
+    <div id="interface-section">
+        <button class="reset-button" onclick="redirectHome()">New Scan</button>
+    </div>
+    
+    <div id="result-display" class="titled-table">
+        <h1>Detected Risks</h1>
+        <table>
+            <tr class="tr-head">
+                <th>Name</th>
+                <th>Threat Level</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Trojan</td>
+                <td class="priority-low">Low</td>
+                <td class="priority-high">Active</td>
+            </tr>
+            <tr>
+                <td>Virus</td>
+                <td class="priority-mid">Medium</td>
+                <td class="priority-mid">Quarantined</td>
+            </tr>
+            <tr>
+                <td>Worm</td>
+                <td class="priority-high">High</td>
+                <td class="priority-good">Blocked</td>
+            </tr>
+            <tr>
+                <td>Adware</td>
+                <td class="priority-low">Low</td>
+                <td class="priority-mid">Quarantined</td>
+            </tr>
+            <tr>
+                <td>Suspected Trojan</td>
+                <td class="priority-low">Low</td>
+                <td class="priority-misc">Allowed</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
