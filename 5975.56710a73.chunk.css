@@ -21,3 +21,66 @@ input{box-sizing:initial;height:16px}.TrialForm .trial-container{display:flex;fl
 .secondary-outline:hover{background:#6c757d;color:#fff}.TailwindButton{position:relative}.TailwindButton
 .thinking>span{left:calc(50% - .65em);position:absolute;top:calc(50% - .65em)}.TailwindButton .thinking{background:inherit;border-radius:5px;bottom:0;content:"";left:0;position:absolute;right:0;top:0}
 /*# sourceMappingURL=5975.56710a73.chunk.css.map*/
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    font-size: 16px; /* Sets the font size for the whole table. */
+}
+
+th
+{
+    color: black;
+}
+
+th, td
+{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+td.priority-low
+{
+    color: gold;
+}
+
+td.priority-mid
+{
+    color: darkorange;
+}
+
+td.priority-high
+{
+    color: crimson;
+}
+
+td.priority-good
+{
+    color: darkgreen;
+}
+
+td.priority-misc
+{
+    color: darkblue;
+}
+
+.titled-table 
+{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 5px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    justify-self: center;
+}
+
+tr.tr-head
+{
+    border-bottom: 2px solid rgb(80, 80, 80);
+}
