@@ -97,13 +97,19 @@ button:hover {
 
     <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
+    <script>
+      function redirectDashboard()
+      {
+        window.location.href = "./dashboard.html";
+      }
+    </script>
     <div class="clearfix">
       <div class="link-container">
         <a class="nav-btn" href="/Homepage">
       <button type="button" class="cancelbtn">Cancel</button>
     </a>
-      <a class="nav-btn" href="/dashboard">
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <a class="nav-btn">
+      <button type="submit" class="signupbtn" onclick="redirectDashboard()">Sign Up</button>
     </a>
   </div>
     </div>
