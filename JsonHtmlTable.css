@@ -1,0 +1,21 @@
+.json-table {
+  padding: 10px 15px;
+}
+
+.json-table td {
+  padding: 5px 10px;
+  font-weight: 300;
+}
+
+.json-table td b {
+  font-weight: 600;
+}
+
+.json-table td li, p {
+  font-weight: 300;
+}
+
+.json-table-key {
+  border: 1px solid rgb(175, 175, 175);
+  background-color: rgb(247, 247, 247);
+}

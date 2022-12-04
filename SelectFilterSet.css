@@ -1,0 +1,33 @@
+.selection-type {
+  margin-bottom: 10px;
+}
+
+.selection-type label {
+  font-size: 14px;
+}
+
+.btn-selection-type {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px !important;
+  margin: 10px !important;
+}
+
+.btn-selection-type:hover {
+  background-color: #428bca;
+  color: white;
+  border: none;
+}
+
+.btn-selection-type:active {
+  background-color: #428bca !important;
+  color: white;
+  border: none;
+}
+
+.btn-selection-type.active {
+  background-color: #428bca !important;
+  color: white !important;
+  border: none;
+}

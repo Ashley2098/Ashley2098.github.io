@@ -1,0 +1,15 @@
+.pagination-server #pagination-first-page {
+  display: none;
+}
+
+.pagination-server #pagination-last-page {
+  display: none;
+}
+
+.rdt_TableHeader div {
+  font-weight: 600;
+}
+
+.rdt_TableHeadRow .rdt_TableCol div {
+  white-space: normal;
+}

@@ -1,0 +1,15 @@
+.btn-unaccept {
+  background-color: red;
+}
+
+.btn-unaccept:hover {
+  background-color: red;
+}
+
+.btn-edit {
+  background-color: grey;
+}
+
+.no-border {
+  border: none;
+}

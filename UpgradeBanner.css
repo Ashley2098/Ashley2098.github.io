@@ -1,0 +1,13 @@
+.banner {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  background: #3cc56e;
+  color: white;
+  order: 0;
+}
+
+.banner a {
+  color: white;
+  text-decoration: underline;
+}
