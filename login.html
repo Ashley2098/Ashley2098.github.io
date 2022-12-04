@@ -40,14 +40,8 @@ button:hover {
   opacity:1;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .loginbtn {
+/* Float login button */
+.signupbtn {
   float: left;
   width: 50%;
 }
@@ -56,29 +50,20 @@ button:hover {
 .container {
   padding: 16px;
 }
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
+/* Change styles for login button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .loginbtn {
+  .signupbtn {
      width: 100%;
   }
 }
 </style>
 <body>
 
-<form style="border:1px solid #ccc">
+<form style="border:1px solid #3388FF">
   <div class="container">
     <h1>Login</h1>
     <p>Welcome Back.</p>
     <hr>
-
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
@@ -89,15 +74,12 @@ button:hover {
     <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
-
-    <div class="clearfix">
       <div class="link-container">
       <a class="nav-btn" href="/dashboard">
-      <button type="submit" class="loginbtn">Login</button>
+      <button type="submit" class="signupbtn">Login</button>
     </a>
   </div>
-    </div>
-  </div>
+</div>
 </form>
 
 </body>
