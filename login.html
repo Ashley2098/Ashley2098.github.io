@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  body {font-family:Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
 
-/* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
+  padding: 12px 20px;
+  margin: 8px 0;
   display: inline-block;
-  border: none;
-  background: #f1f1f1;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
 button {
   background-color: #04AA6D;
   color: white;
@@ -33,53 +23,74 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
 }
 
 button:hover {
-  opacity:1;
+  opacity: 0.8;
 }
 
-/* Float login button */
-.signupbtn {
-  float: left;
-  width: 50%;
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
 }
 
-/* Add padding to container elements */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
 .container {
   padding: 16px;
 }
-/* Change styles for login button on extra small screens */
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  .signupbtn {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
      width: 100%;
   }
 }
 </style>
+</head>
 <body>
 
-<form style="border:1px solid #3388FF">
-  <div class="container">
-    <h1>Login</h1>
-    <p>Welcome Back.</p>
-    <hr>
+<h2>Welcome Back!</h2>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+  <div class="imgcontainer">
+    <img src="VSPLogo.jpg" height="200px" width="200px">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="uname" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
-
+    
+    <button type="submit">Login</button>
     <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
-      <div class="link-container">
-      <a class="nav-btn" href="/dashboard">
-      <button type="submit" class="signupbtn">Login</button>
-    </a>
   </div>
-</div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
 </form>
 
 </body>
