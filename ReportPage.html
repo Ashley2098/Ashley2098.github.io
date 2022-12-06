@@ -1,14 +1,72 @@
-git clone https://github.com/scipag/vulscan scipag_vulscan
-ln -s `pwd`/scipag_vulscan /usr/share/nmap/scripts/vulscan
-
-nmap -sV --script=vulscan/vulscan.nse www.example.com
-
---script-args vulscandb=your_own_database
-
-cd /usr/share/nmap/scripts/
-git clone https://github.com/vulnersCom/nmap-vulners.git
-
-nmap --script nmap-vulners/ -sV 11.22.33.44
-
-nmap --script nmap-vulners/ -sV www.securitytrails.com
-The -sV parameters will allow Nmap to show you version information from the vulnerable services on the remote host.
+<!DOCTYPE html>
+<html>
+<div class="screen-content">
+  <div class="ScanExecutionsTable data-table-container">
+    <div class="loading-wrapper">
+      <div class="pagination-server">
+        <div class="sc-fnGiBr boyBjT rdt_TableHeader" role="heading" aria-level="1">
+          <div class="sc-fEXm1R iyxIPU">Scans</div>
+          <div class="sc-bjfHbI kDCrup"></div>
+          <div class="sc-hBxehG cOdrBD">
+            <div class="sc-bqWxrE kNDaUj"></div>
+            <div class="sc-ksBlkl eLpWcU"></div>
+          </div>
+          </div>
+        </div>
+        <header class="sc-idXgr evreLl">
+          <div class="container-fluid">
+              <div class="row">
+                <div class="text-right col">
+                  <button class="btn-outline-secondary" style="font-size: 13px;">
+                    <span>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z"></path>
+                    </svg>
+                    "Filters"
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+        <div class="container-fluid" style="max-width: 1400px;"></div>
+        </header>
+        <div class="sc-hHTYSt kLvOiH">
+          <div class="sc-kgTSHT dgNTwd">
+        <div class="sc-bcXHqe begmQT rdt_Table" role="table">
+          <div class="sc-gswNZR kQcYu rdt_TableHead" role="rowgroup">
+            <div id="result-display" class="titled-table">
+              <div id="result-display" class="titled-table">
+                <h1>Detected Risks</h1>
+                <table>
+                  <tr class="tr-head">
+                    <th>Name</th>
+                    <th>Threat Level</th>
+                    <th>Status</th>
+                  </tr>
+                  <tr>
+                    <td>Trojan</td>
+                    <td class="priority-low">Low</td>
+                    <td class="priority-high">Active</td>
+                  </tr>
+                  <tr>
+                    <td>Virus</td>
+                    <td class="priority-mid">Medium</td>
+                    <td class="priority-mid">Quarantined</td>
+                  </tr>
+                  <tr>
+                    <td>Worm</td>
+                    <td class="priority-high">High</td>
+                    <td class="priority-good">Blocked</td>
+                  </tr>
+                  <tr>
+              <td>Adware</td>
+              <td class="priority-low">Low</td>
+              <td class="priority-mid">Quarantined</td>
+              </tr>
+              <tr>
+              <td>Suspected Trojan</td>
+              <td class="priority-low">Low</td>
+              <td class="priority-misc">Allowed</td>
+              </tr>
+              </table>
+              </html>
