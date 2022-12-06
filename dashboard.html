@@ -104,37 +104,31 @@
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</body>
-<body onload="myFunction()" style="margin:0;">
 
-<div id="loader"></div>
+    <body onload="myFunction()" style="margin:0;">
 
-<div style="display:none;" id="myDiv" class="animate-bottom">
-  <h2>Tada!</h2>
-  <p>Head over the Report Page.</p>
-</div>
+    <div id="loader"></div>
 
-<script>
-var myVar;
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+      <h2>Tada!</h2>
+      <p>Head over the Report Page.</p>
+    </div>
 
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
+    <script>
+    var myVar;
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+    </body>
 
 </body>
+
 </html>
