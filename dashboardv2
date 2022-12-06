@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<div id="result-display" class="titled-table">
+  <h1>Detected Risks</h1>
+  <table>
+    <tr class="tr-head">
+      <th>Name</th>
+      <th>Threat Level</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>Trojan</td>
+      <td class="priority-low">Low</td>
+      <td class="priority-high">Active</td>
+    </tr>
+    <tr>
+      <td>Virus</td>
+      <td class="priority-mid">Medium</td>
+      <td class="priority-mid">Quarantined</td>
+    </tr>
+    <tr>
+      <td>Worm</td>
+      <td class="priority-high">High</td>
+      <td class="priority-good">Blocked</td>
+    </tr>
+    <tr>
+<td>Adware</td>
+<td class="priority-low">Low</td>
+<td class="priority-mid">Quarantined</td>
+</tr>
+<tr>
+<td>Suspected Trojan</td>
+<td class="priority-low">Low</td>
+<td class="priority-misc">Allowed</td>
+</tr>
+</table>
+</html>
