@@ -1,0 +1,48 @@
+#signupbtn {
+    background-color:transparent; 
+    color:black; 
+    font-size: 15px; 
+    text-align: center; 
+    padding: 5px 20px; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+    margin-right: 40px; 
+    margin-top: 50px; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#loginbtn {
+    background-color:transparent; 
+    color:black; 
+    font-size: 15px; 
+    text-align: center; 
+    padding: 5px 20px; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+    margin-right: 140px; 
+    margin-top: 50px; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#homepagebtn{
+    background-color:transparent; 
+    color:black; 
+    font-size: 15px; 
+    text-align: center; 
+    padding: 5px 20px; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+    margin-right: 230px; 
+    margin-top: 50px; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
