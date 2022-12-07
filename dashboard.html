@@ -1,127 +1,31 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="dashboard.css">
+<link rel="stylesheet" href="buttons.css">
 <html>
-  <head>
-    <meta content="text/html; charset=UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap"
-    rel="stylesheet">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <title>Dashboard</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta property="og:site_name" content="VSPTechnology.com">
-    <script type="text/javascript" async="" src="https://cdn.heapanalytics.com/js/heap-4096076679.js"></script>
-    <script defer="defer" src="/main.de599b30.js"></script>
-    <link href="/main.082e0d7a.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/5975.56710a73.chunk.css">
-    <link rel="canonical" href="https://ashley2098.github.io" data-react-helmet="true">
-    <style>
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 }
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom {
-  from{ bottom:-100px; opacity:0 }
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
-</style>
-  </head>
-
-<body data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-installed class style>
-<div id="root">
-  <header class="MarketingNavigation container-limited container-fluid">
-    <a aria-current="page" class="logo center-xs start-sm active" href="/">
-      <img  width="110px" height="110px" src="VSPLogo.jpg">VSP Technology</a>
-      <div style="flex: 1 1 0%;"></div>
-        <a class="nav-btn" href="/Homepage"></a>
-        <a class="nav-link active" href="dashboard" aria-current="page">Dashboard</a>
-        <a class="nav-link" href="ReportPage">Reports</a>
-      <div class="nav-dropdown dropdown">
-        <button aria-haspopup="true" aria-expanded="false" type="button" class="dropdown-toggle btn btn-primary">
-          <span>
-          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-            <path d="M248 104c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-240C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-49.7 0-95.1-18.3-130.1-48.4 14.9-23 40.4-38.6 69.6-39.5 20.8 6.4 40.6 9.6 60.5 9.6s39.7-3.1 60.5-9.6c29.2 1 54.7 16.5 69.6 39.5-35 30.1-80.4 48.4-130.1 48.4zm162.7-84.1c-24.4-31.4-62.1-51.9-105.1-51.9-10.2 0-26 9.6-57.6 9.6-31.5 0-47.4-9.6-57.6-9.6-42.9 0-80.6 20.5-105.1 51.9C61.9 339.2 48 299.2 48 256c0-110.3 89.7-200 200-200s200 89.7 200 200c0 43.2-13.9 83.2-37.3 115.9z">
-            </path>
-          </svg>
-        </span>
-      </button>
-      <div x-placement="bottom-end" aria-labelledby="" class="dropdown-menu" style="position: absolute; top: 0px; left: 0px; margin: 0px; opacity: 0; pointer-events: none;">
-        <span class="dropdown-item-text">Email</span>
-        <div class="dropdown-divider" role="separator"></div>
-        <a href="settings" class="dropdown-item" style="padding-left: 10px;">Settings</a>
-        <div class="dropdown-divider" role="separator"></div>
-        <a href="#" class="dropdown-item" role="button" style="padding-left: 10px;">Sign Out</a>
+   <head>
+    <img src="VSPLogo.jpg" alt="Vulnerability Scans" style="width:10%;height:18%;position:absolute;left:0;padding-left:15px">
+      <title>Scanning Website</title>
+   </head>
+    <a href="/Homepage"><button id="homepagebtn" onmouseover="this.style.backgroundColor='#D3D3D3'" onmouseout="this.style.backgroundColor='transparent'">Homepage</button></a>
+   <body>
+      <h1>Scanning Website</h1>
+      <label for="website"><b></b></label>
+      <input type="text" placeholder="Enter link" name="website" required>
+      <div style="margin-top:10px"><button onclick="startScan()">Start Scan</button></div>
+      <div id="loading" style="display:none">
+         Loading...
+         <img src="loading.gif" alt="Loading..." />
       </div>
-    </div>
-  </header>
-    <div class="screen">
-      <div class="app-buttons row">
-        <div class="col-sm-6">
-          <button class="btn btn-outline-success btn-lg btn-block">Start Scan</button>
-        </div>
-      </div>
-    </div>
-    <body onload="myFunction()" style="margin:0;">
-      <div id="loader"></div>
-      <div style="display:none;" id="myDiv" class="animate-bottom">
-      <h2>Tada!</h2>
-      <p>Head over to the Report Page.</p>
-    </div>
-    <script>
-      var myVar;
+   </body>
+   <script>
+      function startScan() {
+         // Show the loading circle
+         document.getElementById("loading").style.display = "block";
 
-      function myFunction() {
-        myVar = setTimeout(showPage, 3000);
+         // Redirect to the new page after a short delay
+         setTimeout(function() {
+            window.location.href = "/reports";
+         }, 3000);
       }
-
-      function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("myDiv").style.display = "block";
-      }
-    </script>
-  </body>
-  </div>
-  </body>
+   </script>
 </html>

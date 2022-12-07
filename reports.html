@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="reports.css">
+<link rel="stylesheet" href="buttons.css">
+<body>
+    <div id="top-bar">
+        <img src="VSPLogo.jpg" alt="VSP Logo" width="200" height="200">
+    </div>
+    
+    <a href="/Homepage"><button id="homepagebtn" onmouseover="this.style.backgroundColor='#D3D3D3'" onmouseout="this.style.backgroundColor='transparent'">Homepage</button></a>
+    
+    <a href="/dashboard" ><button id="newscan" onmouseover="this.style.backgroundColor='#0f8c31'" onmouseout="this.style.backgroundColor='#00690e'">New Scan</button></a>
+    <div id="result-display" class="titled-table">
+        <h1>Detected Risks</h1>
+        <table>
+            <tr class="tr-head">
+                <th>Name</th>
+                <th>Threat Level</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Trojan</td>
+                <td class="priority-low">Low</td>
+                <td class="priority-high">Active</td>
+            </tr>
+            <tr>
+                <td>Virus</td>
+                <td class="priority-mid">Medium</td>
+                <td class="priority-mid">Quarantined</td>
+            </tr>
+            <tr>
+                <td>Worm</td>
+                <td class="priority-high">High</td>
+                <td class="priority-good">Blocked</td>
+            </tr>
+            <tr>
+                <td>Adware</td>
+                <td class="priority-low">Low</td>
+                <td class="priority-mid">Quarantined</td>
+            </tr>
+            <tr>
+                <td>Suspected Trojan</td>
+                <td class="priority-low">Low</td>
+                <td class="priority-misc">Allowed</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
