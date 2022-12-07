@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="login.css">
+<script type="text/javascript" src="buttons.js"></script>
 <html>
 <body>
 
-<form style="border:1px solid #ccc" action="/dashboard" method="post">
+<form style="border:1px solid #ccc" method="post">
   <div class="container">
     <h1>Log in</h1>
     <hr>
@@ -24,12 +25,8 @@
     </label>
 
     <div class="clearfix">
-        <a class="nav-btn" href="/Homepage">
-      <button type="button" class="cancelbtn">Cancel</button>
-    </a>
-      <a class="nav-btn" href="/dashboard">
-      <button type="submit" class="signupbtn">Log in</button>
-    </a>
+      <button type="button" onclick="cancel()" class="cancelbtn">Cancel</button>
+      <button type="submit" onclick="login()" class="signupbtn">Log in</button>
     </div>
   </div>
 </form>
