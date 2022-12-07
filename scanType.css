@@ -30,3 +30,7 @@
     margin-right: 110px;
     display: inline-block;
 }
+
+div {
+    word-wrap:break-word;
+}
